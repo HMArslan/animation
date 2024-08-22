@@ -1,0 +1,364 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    /* margin: auto; */
+}
+.line{
+    align-items: center;
+    display: flex;
+    /* width: 100%;  */
+    background-color: rgb(93, 93, 206);
+    height: 50px;
+    justify-content: space-around;
+font-size: 20px;
+}
+.line, .top1, .top2{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    color: rgb(12, 215, 255);
+}
+.line .top3, a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.line i{
+    color: black;
+}
+.abba{
+width: 100%;
+height: 130vh;
+}
+.abba{
+   
+    background: url(https://img.freepik.com/premium-photo/girl-with-backpack-book-her-hand-her-right-hand-is-pointing-out-something_1258886-503.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+
+.nave{
+    display: flex;
+    width: 80%;
+   
+}
+
+.logo .img{
+    width: 300px;
+    height: 300px;
+    background: rebeccapurple;
+}
+.list{
+    display: flex;
+    width: 100%;
+    margin-left: 50%;
+    
+}
+.list ul{
+    color: aliceblue;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+     gap: 30px;
+    /* margin-right: 30px; */
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.smit{
+       width: 100%;
+margin-top: 60px;
+    font-size: 40px;
+    color: rgb(198, 198, 113);
+    position: relative;
+    display: flex;
+    /* margin-right: 100%; */
+}
+
+.sec1{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* width: 50%; */
+}
+ 
+.smit h1{
+    /* position: absolute; */
+  /* justify-items: center; */
+  /* position: relative; */
+  /* animation-name: smit;
+ animation-duration: 2s;   */
+  animation: smit 2000ms  ;
+  animation-fill-mode: both;
+  ;
+
+}
+.part1{
+    display: flex;
+    background-color: #db8ec5;
+}
+.aa h4{
+    position: absolute;
+    /* margin-top: -200%; */
+    /* color: rgb(7, 5, 5); */
+    font-size: 50px;
+    margin-left: 30%;
+    color:rgb(38, 49, 17)
+}
+.aa1{
+    width: 100%;
+}
+.aa span{ 
+    color: rgb(62, 67, 139);
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aa1 img{ width: 300px;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+}
+.part2{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+}
+.part2 .bb h2{
+    display: flex;
+    width: 100%;
+margin-left: 20%;
+color: #db8ec5;
+font-size:50px;
+margin-top: 30px;
+}
+.part3{
+    display: flex;
+    height: 100vh;
+    width: 100%;    
+}
+
+.part3, .part2a a, .part2b a, .part2c a, .part2d a{
+    width: 100%;
+    height: 30vh;
+    margin-top: 5%;
+    color: brown;
+    /* background-color: blueviolet; */
+    justify-content: space-evenly;
+    /* margin-left: 10%;
+    margin-right: 5%; */
+    justify-content: space-evenly;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.bb1 a{
+    color: brown;
+    font-size: 25px;
+    margin-left: 30px;
+
+}
+.part2b{
+    margin-right: 70px;
+}
+
+.smit{
+    animation-name: smit;
+    animation-duration: 5s;
+}
+@keyframes smit {
+   
+    from {left:  20px;}
+    to {left: 310px;
+    /* transform: rotate(1080deg); */
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(208, 73, 39);
+font-weight: 400;
+}}
+
+
+/* 410 media start */
+
+
+@media screen and (max-width:411px){
+    .main{
+        width: 100%;
+    } 
+    .line .top1  i{
+        color: brown;
+        font-size: 15px;
+        /* margin-right: 90%; */
+    }
+    .line .top1 h6{
+        font-size: 10px;
+    }
+    .line .top2 h6{
+        width: 110px;
+        font-size: 7px;
+    }
+    .top2 i{
+        color: brown;
+        font-size: 15px;
+    }
+    .top3 a{
+        /* width: 50px; */
+        font-size: 10px;
+    }
+    .logo img{
+        width: 60px;
+        height: 60px;
+    }
+    .list{
+        position: relative;
+    }
+    .list ul{
+        
+        margin-right: 50px;
+    }
+    .list li{
+        font-size: 8px;
+        gap: 5px;
+    }
+    .abba{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .smit h1{
+        margin-top: 250%;
+    }
+    .smit{
+        margin-right: 80%;
+        width: 50px;
+        height: 60px;
+        font-size: 17px;
+        animation-name: smit;
+        animation-duration: 5s;
+    }
+    
+    @keyframes smit {
+   
+        to {left:0px;}
+        from  {left: 2px;
+        /* transform: rotate(1080deg); */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(208, 73, 39);
+    font-weight: 400;       
+    }   
+}
+.list ul{
+    width: 80px;
+    font-size: 8px;
+    gap: 1px;
+    color: black;
+    margin-right: 60%;
+}
+
+.part1 .aa1 img
+{width: 100px;
+    height: 100px;
+    .part1 h4{
+        font: 15px;
+    }
+}
+
+.part1 span{
+    font-size: 10px;
+}
+
+.part3 .bb1 a{
+    width: 100%;
+    gap: 10px;
+    margin-top: 40px;
+    font-size: 5px;
+    color: #db8ec5;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+}
+
+   
+    
+
+
+/* 1024 media start */
+
+
+@media screen and (max-width:1024px){
+    .line{
+        background-color:#4b95b2;
+    }
+    .line,.top1, .top2, .top3 {
+        flex-direction:column;
+        /* float: left; */
+        font-size: 30px;
+        color: black;
+        border: none;
+        display: block;
+        margin-top: 5px;
+    }
+    .line,.top1, .top2, .top3 i{
+        /* color: #3e0909; */
+    }
+    .top1  i{
+        color: brown;
+        margin-right: 90%;
+    }
+    .top1 h6{
+        width: 200px;
+    }
+    .top2 h6{
+        width: 300px;
+    }
+    .top2 i{
+        color: brown;
+    }
+    .list{
+        position: relative;
+    }
+    .list ul{
+        margin-left: -20%;
+        position: absolute;
+        gap: 10px;
+    }
+    .smit{
+        margin-top: 130%;
+        margin-right: 80%;
+    }
+    @keyframes smit {
+   
+        from {left:  20px;}
+        to {left: 150px;
+        /* transform: rotate(1080deg); */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(208, 73, 39);
+    font-weight: 400;       
+    }   
+}
+.part1.aa h4{
+    font: 15px;
+}
+.aa1 img{width: 200px;
+    height: 200px;
+}
+
+.part2 .bb h2{
+    font-size: 15px;
+    margin-left: 60px;
+    color: rgb(58, 173, 177);
+}
+.part3 .bb1 a{
+    color: #db8ec5;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+}
+
+   
+
